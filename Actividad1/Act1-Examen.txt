@@ -1,0 +1,81 @@
+  419  cd PeopleSoft
+  420  git branch hotfix
+  421  git branch develop
+  422  git checkout InterfazPersona
+  423  cd src
+  424  nano persona.java
+  425  git add .
+  426  git commit -m "comentario descripción añadido a persona.java en InterfazPersona - JesusDominguez"
+  427  nano persona.java
+  428  git add .
+  429  git commit -m "comentario autor añadido a persona.java en InterfazPersona - JesusDominguez"
+  430  git status
+  431  git log
+  432  git checkout develop
+  433  git checkout InterfazPersona
+  434   git merge --no-ff InterfazPersona
+  435   git merge --no-ff develop
+  436  git merge --no-ff develop
+  437  git checkout develop
+  438  git merge --no-ff InterfazPersona
+  439  git checkout -b TestListaPersonas
+  440  cd ..
+  441  cd src
+  442  nano TestListaPersonas.java
+  443  git add .
+  444  git commit -m "comentario descripción añadido a TestListaPersonas.java en TestListaPersonas - JesusDominguez"
+  445  git checkout develop
+  446  git merge --no-ff TestListaPersonas
+  447  git branch release
+  448  git checkout release
+  449  git merge --no-ff develop
+  450  git checkout
+  451  git checkout hotfix
+  452  nano persona.java
+  453  nano Persona.java
+  454  git checkout develop
+  455  nano persona.java
+  456  git checkout release
+  457  nano persona.java
+  458  git checkout hotfix
+  459  nano persona.java
+  460  nano persona.java
+  461  nano persona.java
+  462  nano persona.java
+  463  git add .
+  464  git commit -m "version estable1 en release - JesusDominguez"
+  465  git checkout hotfix
+  466  git merge --no-ff release
+  467  git checkout develop
+  468  nano persona.java
+  469  git add .
+  470  git checkout release
+  471  git commit -m "cambio autor en persona.java - develop - JesusDominguez"
+  472  git checkout release
+  473  git merge --no-ff develop
+  474  git checkout master
+  475  git merge --no-ff release
+  476  git tag -a v0.0 -m "cambio en persona.java - autor"
+  477  git checkout hotfix
+  478  git merge --no-ff release
+  479  nano persona.java
+  480  git commit -m "cambio crítico en persona.java - JesusDominguez"
+  481  git add .
+  482  git commit -m "cambio crítico en persona.java - JesusDominguez"
+  483  git push origin master
+  484  git checkout master
+  485  git push origin master
+  486  git push origin/master
+  487  git push --set-upstream origin/master master
+  488  git push
+  489  git remote add origin git@github.com:jdcar-b/PeopleSoftJesusDominguez.git
+  490  git push origin master
+  491  git push origin master
+  492  git remote add origin https://github.com/jdcar-b/PeopleSoftJesusDominguez
+  493  git push -u origin master
+  494  git clone https://github.com/jdcar-b/PeopleSoftJesusDominguez
+  495  cd PeopleSoftJesusDominguez
+  496  git push origin master
+  497  history
+
+He tenido problemas y no he podido subir el repositorio.
