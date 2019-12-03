@@ -1,4 +1,7 @@
 public class Vehiculo {
+
+//Autor: Jesus Dominguez Bueno.
+
 	private String matricula;
 	private String fabricante;
 	private String modelo;
