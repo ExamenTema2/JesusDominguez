@@ -1,4 +1,9 @@
 public class Vehiculo {
+
+//Autor: Jesus Dominguez Bueno.
+
+//Descripcion: vehiculo perteeneciente a una flota de vehiculos.
+
 	private String matricula;
 	private String fabricante;
 	private String modelo;
